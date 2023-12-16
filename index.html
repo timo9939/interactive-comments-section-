@@ -24,7 +24,7 @@
 
     <main>
 <!-- First comment example -->
-  <section  class="section">
+  <section  class="section" id="first-section">
     <div class="personal-info">
       
       <div class="img-date-container">
@@ -44,7 +44,7 @@
   </section>
 
 <!-- Second comment example -->
-<section  class="section">
+<section  class="section" id="second-section">
   <div class="personal-info">
     
     <div class="img-date-container">
@@ -64,12 +64,12 @@
 </section>
 
 <!-- Template comment -->
-      <template>
-        <section  class="section">
+      <template id="template_comment">
+        <section  class="section" >
         <div class="personal-info">
 
           <div class="img-date-container">
-          <img src="" alt="icon1" />
+          <img src="./images/avatars/image-maxblagun.png" alt="icon1" />
           <span class="date">2 months before</span>
         </div>
 
@@ -79,7 +79,7 @@
 
         </div>
 
-        <p>awful</p>
+        <p id="comment_content">awful</p>
 
       </section>
       </template>
@@ -87,8 +87,9 @@
 <section id="input-section">
   <img src="./images/avatars/image-maxblagun.png" alt="icon-user-Avatar">
   <textarea name="" id="" cols="100" rows="5" placeholder="Add a comment"></textarea>
-  <button>Send</button>
+  <button onclick="submit()">Send</button>
 </section>
     </main>
   </body>
+  <script src="./comment.js"></script>
 </html>
