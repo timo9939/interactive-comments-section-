@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+body{
+    background-color: aliceblue;
+}
+
 main{
     /* background-color: black; */
     border: 1px solid red;
     position: absolute;
     left: 30%;
+
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .section{
     border: blue 1px solid;
     margin: 2vh;
+
+    background-color: rgb(255, 255, 255);
 }
 
 .personal-info{
@@ -36,6 +49,12 @@ justify-content: space-between;
     align-items: center;
 }
 
+.img-date-container:nth-child(1){
+color: rgb(80, 80, 80);
+font-weight: 700;
+}
+
+
 /* End of comment */
 
 /* Input comment */
@@ -49,6 +68,7 @@ display: flex;
 align-items: center;
 
 padding: 2vh;
+background-color: rgb(255, 255, 255);
 }
 
 #input-section>img{
