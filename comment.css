@@ -35,3 +35,43 @@ justify-content: space-between;
     gap: 3vw;
     align-items: center;
 }
+
+/* End of comment */
+
+/* Input comment */
+#input-section{
+border: solid 1px black;
+margin-top: 20vh;
+
+display: flex;
+/* justify-content: space-around; */
+
+align-items: center;
+
+padding: 2vh;
+}
+
+#input-section>img{
+    width: min-content;
+    height: min-content;
+}
+
+#input-section>textarea{
+    width: 50%;
+    height: min-content;
+    margin-left:5vw ;
+}
+
+#input-section>button{
+    color: aliceblue;
+text-transform: uppercase;
+letter-spacing: 0.1pc;
+
+    padding: 1vw 1vw;
+    margin-left: 10vw;
+
+    background-color: rgb(92, 57, 220);
+
+    border: none;
+    border-radius:3px ;
+}
