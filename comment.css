@@ -1,0 +1,37 @@
+main{
+    /* background-color: black; */
+    border: 1px solid red;
+    position: absolute;
+    left: 30%;
+}
+
+.section{
+    border: blue 1px solid;
+    margin: 2vh;
+}
+
+.personal-info{
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+}
+
+.personal-info div{
+    height: max-content;
+    display: flex;
+    align-self: center;
+    position: relative;
+    margin-right: 2vw;
+}
+
+.personal-info div button{
+    color: green;
+    /* align-content: center; */
+}
+
+.img-date-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    align-items: center;
+}
