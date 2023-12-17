@@ -22,7 +22,7 @@
 
     <header>Product Review</header>
 
-    <main>
+    <main id="mainContainer">
 <!-- First comment example -->
   <section  class="section" id="first-section">
     <div class="personal-info">
@@ -70,26 +70,38 @@
 
           <div class="img-date-container">
           <img src="./images/avatars/image-maxblagun.png" alt="icon1" />
-          <span class="date">2 months before</span>
+          <span>Max Blagun</span>
+          <span class="date">Today</span>
         </div>
 
-          <div>
+          <!-- <div>
             <button><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
-          </div>
+          </div> -->
 
         </div>
 
-        <p id="comment_content">awful</p>
+        <p id="comment_content">This is test</p>
 
       </section>
       </template>
 
-<section id="input-section">
+<template></template>
+
+   </main>
+
+
+
+<!-- To leave a comment in the main content -->
+
+ 
+    
+  <section id="input-section">
   <img src="./images/avatars/image-maxblagun.png" alt="icon-user-Avatar">
-  <textarea name="" id="" cols="100" rows="5" placeholder="Add a comment"></textarea>
+  <textarea name="" id="input" cols="100" rows="5" placeholder="Add a comment"></textarea>
   <button onclick="submit()">Send</button>
 </section>
-    </main>
+
+
   </body>
   <script src="./comment.js"></script>
 </html>

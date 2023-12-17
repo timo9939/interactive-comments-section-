@@ -60,12 +60,15 @@ font-weight: 700;
 
 /* Input comment */
 #input-section{
+
+position: fixed;
+bottom: 5%;
+left: 30%;
+
 border: solid 1px black;
 margin-top: 20vh;
 
 display: flex;
-/* justify-content: space-around; */
-
 align-items: center;
 
 padding: 2vh;
@@ -96,3 +99,6 @@ letter-spacing: 0.1pc;
     border: none;
     border-radius:3px ;
 }
+
+
+
