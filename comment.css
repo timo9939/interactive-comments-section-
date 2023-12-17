@@ -11,8 +11,11 @@ main{
     border: 1px solid red;
     position: absolute;
     left: 30%;
+    height: max(60%);
+    overflow-y: scroll;
 
     font-family: 'Poppins', sans-serif;
+
 
 }
 
