@@ -25,5 +25,7 @@ function submit(){
     // Append the cloned content to the second_section
     after_second_section.append(clone);
 
+    // Reset and clean the inputfield
+    document.getElementById("input").value= " ";
 }
 
