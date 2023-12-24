@@ -22,7 +22,7 @@
 
     <main id="mainContainer">
 <!-- First comment example -->
-  <section  class="section" id="first-section">
+  <section  class="section" id="first-section" id="101" >
     <div class="personal-info">
       
       <div class="img-date-container">
@@ -32,7 +32,7 @@
     </div>
 
       <div>
-        <button><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
+        <button class="replyBtn" onclick="pressReply(this)" id="1"><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
       </div>
 
     </div>
@@ -42,7 +42,7 @@
   </section>
 
 <!-- Second comment example -->
-<section  class="section" id="second-section">
+<section  class="section" id="second-section" name="2" id="102">
   <div class="personal-info">
     
     <div class="img-date-container">
@@ -52,7 +52,7 @@
   </div>
 
     <div>
-      <button><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
+      <button class="replyBtn" onclick="pressReply()" id="2"><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
     </div>
 
   </div>
@@ -73,7 +73,7 @@
         </div>
 
           <div>
-            <button><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
+            <button class="replyBtn" onclick="pressReply()"><img src="./images/icon-reply.svg" alt="reply-icon">Reply</button>
           </div>
 
         </div>
@@ -82,8 +82,6 @@
 
       </section>
       </template>
-
-<template></template>
 
    </main>
 
@@ -99,6 +97,13 @@
   <button onclick="submit()">Send</button>
 </section>
 
+
+<!-- Input for replying specfic person -->
+<section id="reply-input"> 
+   <img src="./images/avatars/image-maxblagun.png" alt="icon-user-Avatar">
+  <textarea name="" id="Replyinput" cols="100" rows="5" placeholder="reply comment"></textarea>
+  <button onclick="afterPressReply()">Reply</button>
+</section>
 
   </body>
   <script src="./comment.js"></script>

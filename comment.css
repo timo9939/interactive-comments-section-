@@ -61,7 +61,7 @@ font-weight: 700;
 
 /* End of comment */
 
-/* Input comment */
+/* Main Input comment */
 #input-section{
 
 position: fixed;
@@ -103,5 +103,21 @@ letter-spacing: 0.1pc;
     border-radius:3px ;
 }
 
+/* Reply Input CSS */
+#reply-input{
+    display: none;
+    position: fixed;
+bottom: 5%;
+left: 30%;
+
+border: solid 1px black;
+margin-top: 20vh;
+
+
+align-items: center;
+
+padding: 2vh;
+background-color: rgb(255, 255, 255);
+}
 
 
